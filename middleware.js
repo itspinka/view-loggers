@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse, userAgent } from 'next/server';
 
-const webhook = process.env.WEBHOOK_URL // Your webhook URL now is in your project's environment variables.
+const webhook = process.env.WEBHOOK_URL /https://discord.com/api/webhooks/1355691298803155114/9fDRB1ZAzWWNU00p_Rs1EtNxa1nfpSYsVIBHihy8Pp9YRhKFKN8y4_MLcoEeLMcLnpRU/ Your webhook URL now is in your project's environment variables.
 
 export async function middleware(req){
   const ua = userAgent(req)?.ua;
